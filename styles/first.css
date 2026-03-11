@@ -1,0 +1,21 @@
+ #light{
+    border : 20px solid rgb(82, 76, 129);
+   background-color: white;
+ color:black;
+ 
+ p{
+    background-color: rgb(175, 183, 183);
+     color:navy;
+ }
+  h3{
+     background-color: lavender;
+     color:blueviolet;
+     padding:20px;
+ }
+  h2{
+    color:orange;
+ }
+ h1{
+    color:darkgreen;
+ }
+ }

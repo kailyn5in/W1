@@ -1,0 +1,21 @@
+#dark{
+    border : 20px solid rgb(175, 183, 183);
+   background-color: black;
+   color:white;
+
+   p{
+      background-color: rgb(58, 77, 77);
+      color:rgb(255, 255, 255);
+   }
+   h3{
+      background-color: rgb(50, 50, 69);
+      color:rgb(236, 224, 247);
+      padding:20px;
+   }
+   h2{
+      color:rgb(193, 168, 125);
+   }
+   h1{
+      color:rgb(130, 180, 130);
+   }
+}
