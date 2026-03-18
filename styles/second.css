@@ -7,6 +7,10 @@
       background-color: rgb(58, 77, 77);
       color:rgb(255, 255, 255);
    }
+   .piglet{
+   background-color: rgb(73, 47, 47);
+   color:rgb(251, 251, 251);
+   padding:20px;}
    h3{
       background-color: rgb(50, 50, 69);
       color:rgb(236, 224, 247);
