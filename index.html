@@ -6,15 +6,24 @@
         <link rel="stylesheet" href="./styles/first.css">
     </head>
 
-     <body id = "light">
-            <button onclick = "document.body.id='dark'">
-                 Dark Mode
-            </button>
-             <button onclick = "document.body.id='light'">
+     <body id = "dark">
+            <button id= "color-mode" onclick = "changeColors();">
                  Light Mode
             </button>
+
             <script>
-                
+                const colorModeButton = document.querySelector('#color-mode');
+
+             function changeColors(){
+              if(document.body.id === "dark"){
+                document.body.id='light';
+                colorModeButton.textContent="Dark Mode"
+            }else{if(document.body.id === "light"){
+                document.body.id='dark';
+                colorModeButton.textContent="Light Mode"}
+
+            }
+        }
             </script>
         
     
