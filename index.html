@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="./styles/second.css">
         <link rel="stylesheet" href="./styles/first.css">
     </head>
-
+    <button onclick="HowAreYou();">
+        How are you?
+    </button>
      <body id = "dark">
             <button id= "color-mode" onclick = "changeColors();">
                  Light Mode
@@ -40,16 +42,19 @@
         <h3>Introduction to JavaScript</h3>
         <p>JavaScript adds interactivity to a webpage</p>
         <img src="./images/hitori.jpg" width="300">
+        <img src="./images/lucy.png" width="300">
         <footer>
-            <p>3/12/2026 Kailyn Lee</p>
+            <p>3/30/2026</p>
+            <p>Kailyn Lee</p>
         </footer>
         <script>
+            function HowAreYou(){
         let mood =prompt("How are you feeling?");
-        if(mood==="sleepy") {
+        if(mood === "sleepy") {
             alert('wake up!');
         } else{
             alert("Oh! You are feeling "+mood+".")
-        };
+        };};
         </script>
     </body>
     </html>

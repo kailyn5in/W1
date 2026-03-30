@@ -22,4 +22,9 @@
    h1{
       color:rgb(130, 180, 130);
    }
+   footer p{
+      
+  margin:0;
+   padding:0;
+   }
 }

@@ -23,4 +23,8 @@
  h1{
     color:darkgreen;
  }
+ footer p{
+   margin:0;
+   padding:0;
+ }
  }
