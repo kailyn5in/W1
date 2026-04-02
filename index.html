@@ -26,6 +26,7 @@
 
             }
         }
+       
             </script>
         
     
@@ -49,12 +50,31 @@
         </footer>
         <script>
             function HowAreYou(){
-        let mood =prompt("How are you feeling?");
+        let feelings =prompt("How are you feeling?");
+        respond(feelings)
+    }
+
+        function respond(mood){
         if(mood === "sleepy") {
             alert('wake up!');
         } else{
             alert("Oh! You are feeling "+mood+".")
         };};
+        console.log("mood", typeof mood);
+        console.log("hi");
+        if(true){
+            let insideIf="yep";
+             console.log(typeof InsideIf);
+        }
+        function addTwo(value){
+            console.log(value+2);
+            return value+2
+        }
+        addTwo(5);
+    let result= addTwo(9);
+    console.log("result", result);
+    
+       
         </script>
     </body>
     </html>
